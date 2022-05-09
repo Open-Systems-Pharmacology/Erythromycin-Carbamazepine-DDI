@@ -1,15 +1,14 @@
 # Erythromycin-Carbamazepine-DDI
+Modeling of published clinical Erythromycin-Carbamazepine-DDI studies for model evaluation.
 
-Modeling of published clinical Erythromycin-Carbamazepine DDI studies for model evaluation
+The repository contains a [PK-Sim snapshot (*.json) file](https://docs.open-systems-pharmacology.org/working-with-pk-sim/pk-sim-documentation/importing-exporting-project-data-models#exporting-project-to-snapshot-loading-project-from-snapshot) containing the respective simulations.
 
-## Repository files
-
-Within this repository, we distribute a PK-Sim project file containing simulations of published clinical studies used to evaluate the predictive performance of our models regarding the Erythromycin-Carbamazepine DDI, including the respective observed data digitized from literature reports. 
+**The latest release of the snapshot can be found [here](../../releases/latest).**
 
 The reference model repositories can be found here:
 
 - [Erythromycin OSP PBPK model](https://github.com/Open-Systems-Pharmacology/Erythromycin-Model)
-- [Carbamazepine PBPK model](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Model)
+- [Carbamazepine OSP PBPK model](https://github.com/Open-Systems-Pharmacology/Carbamazepine-Model)
 
 ## Code of conduct
 
@@ -21,4 +20,4 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 
 ## License
 
-The model is distributed under the [GPLv2 Lincense](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
+The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
