@@ -1,42 +1,12 @@
 {
-  "Version": 78,
-  "Individuals": [
+  "Version": 79,
+  "ExpressionProfiles": [
     {
-      "Name": "Barzaghi1987",
-      "Seed": 1877189984,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "European_ICRP_2002",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 24.0,
-          "Unit": "year(s)"
-        },
-        "Weight": {
-          "Value": 70.0,
-          "Unit": "kg"
-        }
-      },
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Barzaghi1987",
       "Parameters": [
-        {
-          "Path": "CYP2B6|Reference concentration",
-          "Value": 1.56,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2B6|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2B6|t1/2 (liver)",
-          "Value": 32.0,
-          "Unit": "h"
-        },
         {
           "Path": "CYP3A4|Reference concentration",
           "Value": 4.32,
@@ -56,6 +26,66 @@
           }
         },
         {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "OATP1B1",
+      "Category": "Barzaghi1987",
+      "Parameters": [
+        {
           "Path": "OATP1B1|Reference concentration",
           "Value": 1.0,
           "Unit": "µmol/l"
@@ -71,44 +101,337 @@
           "Unit": "h"
         },
         {
-          "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0021211129296
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
           "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
           "Value": 0.00014166666667
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0063502454992
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
         },
         {
           "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
           "Value": 0.0141666667
         },
         {
-          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.00094468085106
-        },
-        {
           "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
           "Value": 0.0008253968254
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
+          "Value": 4.0079365079E-05
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00064682539683
+        }
+      ],
+      "TransportType": "Influx",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainInterstitialToTissue",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "InfluxPlasmaToBloodCells"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "InfluxPlasmaToInterstitial"
+        }
+      ]
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2B6",
+      "Category": "Barzaghi1987",
+      "Parameters": [
+        {
+          "Path": "CYP2B6|Reference concentration",
+          "Value": 1.56,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (liver)",
+          "Value": 32.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0021211129296
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0063502454992
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
           "Value": 0.1043535188
         },
         {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.5970540098
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT2B7",
+      "Category": "Barzaghi1987",
+      "Parameters": [
+        {
+          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.00094468085106
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
@@ -131,38 +454,7 @@
           "Value": 0.0049787234043
         },
         {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
-        },
-        {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
           "Value": 1.0
         },
         {
@@ -170,92 +462,28 @@
           "Value": 1.0
         },
         {
-          "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.5970540098
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05
-        },
-        {
-          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00064682539683
-        },
-        {
           "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
           "Value": 0.0354468085
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
@@ -281,287 +509,17 @@
           "Unit": "h"
         }
       ],
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          }
-        },
-        {
-          "Name": "OATP1B1",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainPlasmaToInterstitial",
-              "CompartmentName": "Plasma"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainInterstitialToTissue",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Fat",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Gonads",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Heart",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "ExcretionKidney",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Stomach",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "SmallIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LargeIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Lung",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Muscle",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pancreas",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Skin",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Spleen",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "BloodCells",
-              "TransportDirection": "InfluxPlasmaToBloodCells"
-            },
-            {
-              "Name": "VascularEndothelium",
-              "TransportDirection": "InfluxPlasmaToInterstitial"
-            }
-          ]
-        },
-        {
-          "Name": "CYP2B6",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
-        },
-        {
-          "Name": "UGT2B7",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "UGT2B7"
-          }
-        }
-      ]
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "UGT2B7"
+      }
     },
     {
-      "Name": "Wong1983",
-      "Seed": 1892668203,
-      "OriginData": {
-        "CalculationMethods": [
-          "SurfaceAreaPlsInt_VAR1",
-          "Body surface area - Mosteller"
-        ],
-        "Species": "Human",
-        "Population": "WhiteAmerican_NHANES_1997",
-        "Gender": "MALE",
-        "Age": {
-          "Value": 30.0,
-          "Unit": "year(s)"
-        }
-      },
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Wong1983",
       "Parameters": [
-        {
-          "Path": "CYP2B6|Reference concentration",
-          "Value": 1.56,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2B6|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2B6|t1/2 (liver)",
-          "Value": 32.0,
-          "Unit": "h"
-        },
         {
           "Path": "CYP3A4|Reference concentration",
           "Value": 4.32,
@@ -581,6 +539,66 @@
           }
         },
         {
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "OATP1B1",
+      "Category": "Wong1983",
+      "Parameters": [
+        {
           "Path": "OATP1B1|Reference concentration",
           "Value": 1.0,
           "Unit": "µmol/l"
@@ -596,44 +614,337 @@
           "Unit": "h"
         },
         {
-          "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0021211129296
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
           "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
           "Value": 0.00014166666667
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0063502454992
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
         },
         {
           "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
           "Value": 0.0141666667
         },
         {
-          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.00094468085106
-        },
-        {
           "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
           "Value": 0.0008253968254
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
+          "Value": 4.0079365079E-05
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00064682539683
+        }
+      ],
+      "TransportType": "Influx",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainInterstitialToTissue",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "InfluxPlasmaToBloodCells"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "InfluxPlasmaToInterstitial"
+        }
+      ]
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2B6",
+      "Category": "Wong1983",
+      "Parameters": [
+        {
+          "Path": "CYP2B6|Reference concentration",
+          "Value": 1.56,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (liver)",
+          "Value": 32.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0021211129296
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0063502454992
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
           "Value": 0.1043535188
         },
         {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.5970540098
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT2B7",
+      "Category": "Wong1983",
+      "Parameters": [
+        {
+          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.00094468085106
         },
         {
           "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
@@ -656,38 +967,7 @@
           "Value": 0.0049787234043
         },
         {
-          "Path": "Organism|Liver|EHC continuous fraction",
-          "Value": 1.0,
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
-        },
-        {
           "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
           "Value": 1.0
         },
         {
@@ -695,92 +975,28 @@
           "Value": 1.0
         },
         {
-          "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.5970540098
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05
-        },
-        {
-          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00064682539683
-        },
-        {
           "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
           "Value": 0.0354468085
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
         },
         {
           "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
         },
         {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
           "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
@@ -805,253 +1021,591 @@
           "Unit": "h"
         }
       ],
-      "Molecules": [
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "UGT2B7"
+      }
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP3A4",
+      "Category": "Miles1989",
+      "Parameters": [
         {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
+          "Path": "CYP3A4|Reference concentration",
+          "Value": 4.32,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP3A4|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
           }
         },
         {
-          "Name": "OATP1B1",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainPlasmaToInterstitial",
-              "CompartmentName": "Plasma"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainInterstitialToTissue",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Fat",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Gonads",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Heart",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "ExcretionKidney",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Stomach",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "SmallIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LargeIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Lung",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Muscle",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pancreas",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Skin",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Spleen",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "BloodCells",
-              "TransportDirection": "InfluxPlasmaToBloodCells"
-            },
-            {
-              "Name": "VascularEndothelium",
-              "TransportDirection": "InfluxPlasmaToInterstitial"
-            }
-          ]
+          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0041682898325
         },
         {
-          "Name": "CYP2B6",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00078691079081
         },
         {
-          "Name": "UGT2B7",
-          "Type": "Enzyme",
-          "Localization": "Intracellular",
-          "Ontogeny": {
-            "Name": "UGT2B7"
+          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0053603428126
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.00042695753798
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
+          "Value": 0.0727697702
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
+      "Ontogeny": {
+        "Name": "CYP3A4"
+      }
+    },
+    {
+      "Type": "Transporter",
+      "Species": "Human",
+      "Molecule": "OATP1B1",
+      "Category": "Miles1989",
+      "Parameters": [
+        {
+          "Path": "OATP1B1|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "OATP1B1|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "OATP1B1|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00014166666667
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0141666667
+        },
+        {
+          "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.0008253968254
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
+          "Value": 4.0079365079E-05
+        },
+        {
+          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
+          "Value": 0.00064682539683
+        }
+      ],
+      "TransportType": "Influx",
+      "Expression": [
+        {
+          "Name": "Bone",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainPlasmaToInterstitial",
+          "CompartmentName": "Plasma"
+        },
+        {
+          "Name": "Brain",
+          "TransportDirection": "InfluxBrainInterstitialToTissue",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Fat",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Gonads",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Heart",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Kidney",
+          "TransportDirection": "ExcretionKidney",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Stomach",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "SmallIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Duodenum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerJejunum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "UpperIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "LowerIleum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "LargeIntestine",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Caecum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonAscendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonTransversum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonDescendens",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "ColonSigmoid",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Rectum",
+          "TransportDirection": "InfluxLumenToMucosaIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Periportal",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Interstitial"
+        },
+        {
+          "Name": "Pericentral",
+          "TransportDirection": "ExcretionLiver",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Lung",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Muscle",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Pancreas",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Skin",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "Spleen",
+          "TransportDirection": "InfluxInterstitialToIntracellular",
+          "CompartmentName": "Intracellular"
+        },
+        {
+          "Name": "BloodCells",
+          "TransportDirection": "InfluxPlasmaToBloodCells"
+        },
+        {
+          "Name": "VascularEndothelium",
+          "TransportDirection": "InfluxPlasmaToInterstitial"
+        }
+      ]
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "CYP2B6",
+      "Category": "Miles1989",
+      "Parameters": [
+        {
+          "Path": "CYP2B6|Reference concentration",
+          "Value": 1.56,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "CYP2B6|t1/2 (liver)",
+          "Value": 32.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0021211129296
+        },
+        {
+          "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0063502454992
+        },
+        {
+          "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.1043535188
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.5970540098
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
+          "Value": 0.0703109656
+        }
+      ],
+      "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
+    },
+    {
+      "Type": "Enzyme",
+      "Species": "Human",
+      "Molecule": "UGT2B7",
+      "Category": "Miles1989",
+      "Parameters": [
+        {
+          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.00094468085106
+        },
+        {
+          "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0049787234043
+        },
+        {
+          "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Liver|Periportal|Intracellular|UGT2B7|Relative expression",
+          "Value": 1.0
+        },
+        {
+          "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.0354468085
+        },
+        {
+          "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
+          "Value": 0.5361702128
+        },
+        {
+          "Path": "UGT2B7|Reference concentration",
+          "Value": 3.372,
+          "Unit": "µmol/l",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "UGT2B7|t1/2 (intestine)",
+          "Value": 23.0,
+          "Unit": "h"
+        },
+        {
+          "Path": "UGT2B7|t1/2 (liver)",
+          "Value": 36.0,
+          "Unit": "h"
+        }
+      ],
+      "Localization": "Intracellular",
+      "Ontogeny": {
+        "Name": "UGT2B7"
+      }
+    }
+  ],
+  "Individuals": [
+    {
+      "Name": "Barzaghi1987",
+      "Seed": 1877189984,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 24.0,
+          "Unit": "year(s)"
+        },
+        "Weight": {
+          "Value": 70.0,
+          "Unit": "kg"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
           }
         }
+      ],
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Barzaghi1987",
+        "OATP1B1|Human|Barzaghi1987",
+        "CYP2B6|Human|Barzaghi1987",
+        "UGT2B7|Human|Barzaghi1987"
+      ]
+    },
+    {
+      "Name": "Wong1983",
+      "Seed": 1892668203,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "WhiteAmerican_NHANES_1997",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "Parameters": [
+        {
+          "Path": "Organism|Liver|EHC continuous fraction",
+          "Value": 1.0,
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ],
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Wong1983",
+        "OATP1B1|Human|Wong1983",
+        "CYP2B6|Human|Wong1983",
+        "UGT2B7|Human|Wong1983"
       ]
     },
     {
@@ -1076,510 +1630,18 @@
       },
       "Parameters": [
         {
-          "Path": "CYP2B6|Reference concentration",
-          "Value": 1.56,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP2B6|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP2B6|t1/2 (liver)",
-          "Value": 32.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|Reference concentration",
-          "Value": 4.32,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "CYP3A4|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "OATP1B1|Reference concentration",
-          "Value": 1.0,
-          "Unit": "µmol/l"
-        },
-        {
-          "Path": "OATP1B1|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "OATP1B1|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0021211129296
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0041682898325
-        },
-        {
-          "Path": "Organism|Brain|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00014166666667
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0063502454992
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00078691079081
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0141666667
-        },
-        {
-          "Path": "Organism|Gonads|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.00094468085106
-        },
-        {
-          "Path": "Organism|Heart|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.0008253968254
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.1043535188
-        },
-        {
-          "Path": "Organism|Kidney|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0053603428126
-        },
-        {
-          "Path": "Organism|LargeIntestine|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
-        },
-        {
-          "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0049787234043
-        },
-        {
           "Path": "Organism|Liver|EHC continuous fraction",
           "Value": 1.0,
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Pericentral|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP2B6|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|CYP3A4|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|OATP1B1|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Liver|Periportal|Intracellular|UGT2B7|Relative expression",
-          "Value": 1.0
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.5970540098
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.00042695753798
-        },
-        {
-          "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05
-        },
-        {
-          "Path": "Organism|Muscle|Intracellular|OATP1B1|Relative expression",
-          "Value": 0.00064682539683
-        },
-        {
-          "Path": "Organism|Pancreas|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.0354468085
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP2B6|Relative expression",
-          "Value": 0.0703109656
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|CYP3A4|Relative expression",
-          "Value": 0.0727697702
-        },
-        {
-          "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Intracellular|UGT2B7|Relative expression",
-          "Value": 0.5361702128
-        },
-        {
-          "Path": "UGT2B7|Reference concentration",
-          "Value": 3.372,
-          "Unit": "µmol/l",
-          "ValueOrigin": {
-            "Source": "Unknown"
-          }
-        },
-        {
-          "Path": "UGT2B7|t1/2 (intestine)",
-          "Value": 23.0,
-          "Unit": "h"
-        },
-        {
-          "Path": "UGT2B7|t1/2 (liver)",
-          "Value": 36.0,
-          "Unit": "h"
         }
       ],
-      "Molecules": [
-        {
-          "Name": "CYP3A4",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome",
-          "Ontogeny": {
-            "Name": "CYP3A4"
-          }
-        },
-        {
-          "Name": "OATP1B1",
-          "Type": "Transporter",
-          "TransportType": "Influx",
-          "Expression": [
-            {
-              "Name": "Bone",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainPlasmaToInterstitial",
-              "CompartmentName": "Plasma"
-            },
-            {
-              "Name": "Brain",
-              "TransportDirection": "InfluxBrainInterstitialToTissue",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Fat",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Gonads",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Heart",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Kidney",
-              "TransportDirection": "ExcretionKidney",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Stomach",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "SmallIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Duodenum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerJejunum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "UpperIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "LowerIleum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "LargeIntestine",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Caecum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonAscendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonTransversum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonDescendens",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "ColonSigmoid",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Rectum",
-              "TransportDirection": "InfluxLumenToMucosaIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Periportal",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Interstitial"
-            },
-            {
-              "Name": "Pericentral",
-              "TransportDirection": "ExcretionLiver",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Lung",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Muscle",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Pancreas",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Skin",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "Spleen",
-              "TransportDirection": "InfluxInterstitialToIntracellular",
-              "CompartmentName": "Intracellular"
-            },
-            {
-              "Name": "BloodCells",
-              "TransportDirection": "InfluxPlasmaToBloodCells"
-            },
-            {
-              "Name": "VascularEndothelium",
-              "TransportDirection": "InfluxPlasmaToInterstitial"
-            }
-          ]
-        },
-        {
-          "Name": "CYP2B6",
-          "Type": "Enzyme",
-          "Localization": "Intracellular, BloodCellsIntracellular, VascEndosome"
-        },
-        {
-          "Name": "UGT2B7",
-          "Type": "Enzyme",
-          "Localization": "Intracellular",
-          "Ontogeny": {
-            "Name": "UGT2B7"
-          }
-        }
+      "ExpressionProfiles": [
+        "CYP3A4|Human|Miles1989",
+        "OATP1B1|Human|Miles1989",
+        "CYP2B6|Human|Miles1989",
+        "UGT2B7|Human|Miles1989"
       ]
     }
   ],
@@ -3018,6 +3080,23 @@
             }
           ],
           "Name": "Barzaghi1987_400mg_sd_tabIR_fed",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Erythromycin-Carbamazepine-DDI\nBarzaghi1987_ControlPhase\n2022-05-09 10:25"
         }
       ],
@@ -3474,6 +3553,23 @@
             }
           ],
           "Name": "Barzaghi1987_400mg_sd_tabIR_fed",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Erythromycin-Carbamazepine-DDI\nBarzaghi1987_TreatmentPhase\n2022-05-09 10:28"
         }
       ],
@@ -3776,6 +3872,23 @@
             }
           ],
           "Name": "Miles1989_control_357_md_tabIR",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Erythromycin-Carbamazepine-DDI\nMiles1989_ControlPhase_300mg\n2022-05-09 10:32"
         }
       ],
@@ -3998,6 +4111,23 @@
             }
           ],
           "Name": "Miles1989_control_357_md_tabIR",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Erythromycin-Carbamazepine-DDI\nMiles1989_ControlPhase_357mg\n2022-05-09 10:37"
         }
       ],
@@ -4295,6 +4425,23 @@
             }
           ],
           "Name": "Miles1989_control_357_md_tabIR",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Erythromycin-Carbamazepine-DDI\nMiles1989_ControlPhase_400mg\n2022-05-09 10:40"
         }
       ],
@@ -4727,6 +4874,23 @@
             }
           ],
           "Name": "Miles1989_control_357_md_tabIR",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Erythromycin-Carbamazepine-DDI\nMiles1989_TreatmentPhase_300mg\n2022-05-04 10:04"
         }
       ],
@@ -5178,6 +5342,23 @@
             }
           ],
           "Name": "Miles1989_control_357_md_tabIR",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Erythromycin-Carbamazepine-DDI\nMiles1989_TreatmentPhase_357mg\n2022-05-09 10:47"
         }
       ],
@@ -5615,6 +5796,23 @@
             }
           ],
           "Name": "Miles1989_control_357_md_tabIR",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Erythromycin-Carbamazepine-DDI\nMiles1989_TreatmentPhase_400mg\n2022-05-09 15:42"
         }
       ],
@@ -5773,6 +5971,23 @@
             }
           ],
           "Name": "Wong1983_control_400mg_sd_tabIR",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Erythromycin-Carbamazepine-DDI\nWong1983_ControlPhase\n2022-05-09 17:04"
         }
       ],
@@ -6239,6 +6454,23 @@
             }
           ],
           "Name": "Wong1983_control_400mg_sd_tabIR",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
           "OriginText": "Erythromycin-Carbamazepine-DDI\nWong1983_TreatmentPhase\n2022-05-09 17:07"
         }
       ],
@@ -6267,75 +6499,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 463.0
+          "Value": 463.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Barzaghi 1987"
+          "Value": "Barzaghi 1987",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/3440106/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/3440106/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1a"
+          "Value": "Fig. 1a",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Without erythromycin"
+          "Value": "Without erythromycin",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 7.0
+          "Value": 7.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine"
+          "Value": "Carbamazepine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fed"
+          "Value": "fed",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6345,13 +6595,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Barzaghi 1987 - Without erythromycin - Carbamazepine - PO - 400 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 236.269
               },
               "Values": [
@@ -6371,13 +6619,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Barzaghi 1987 - Without erythromycin - Carbamazepine - PO - 400 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 236.269
           },
           "Values": [
@@ -6399,14 +6645,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Barzaghi 1987 - Without erythromycin - Carbamazepine - PO - 400 mg - Serum - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           2.0,
@@ -6429,75 +6673,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 464.0
+          "Value": 464.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Barzaghi 1987"
+          "Value": "Barzaghi 1987",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/3440106/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/3440106/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1b"
+          "Value": "Fig. 1b",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Without erythromycin"
+          "Value": "Without erythromycin",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 7.0
+          "Value": 7.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine-10-11-epoxide"
+          "Value": "Carbamazepine-10-11-epoxide",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fed"
+          "Value": "fed",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -6507,13 +6769,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Barzaghi 1987 - Without erythromycin - Carbamazepine-10-11-epoxide - PO - 400 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 252.27
               },
               "Values": [
@@ -6533,13 +6793,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Barzaghi 1987 - Without erythromycin - Carbamazepine-10-11-epoxide - PO - 400 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 252.27
           },
           "Values": [
@@ -6561,14 +6819,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Barzaghi 1987 - Without erythromycin - Carbamazepine-10-11-epoxide - PO - 400 mg - Serum - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           2.0,
@@ -6591,88 +6847,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 1153.0
+          "Value": 1153.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Wong 1983"
+          "Value": "Wong 1983",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/6831824/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/6831824/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Treatment B (without erythromycin)"
+          "Value": "Treatment B (without erythromycin)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "individual"
+          "Value": "individual",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 8.0
+          "Value": 8.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine"
+          "Value": "Carbamazepine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 0.0
+          "Value": 0.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Wong 1983 - Treatment B (without erythromycin) - Carbamazepine - PO - 400 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 236.269
           },
           "Values": [
@@ -6692,20 +6964,18 @@
             1.777015
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Wong 1983 - Treatment B (without erythromycin) - Carbamazepine - PO - 400 mg - Plasma - indiv.|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           1.0,
@@ -6732,88 +7002,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 1418.0
+          "Value": 1418.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Miles 1989"
+          "Value": "Miles 1989",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/2911854/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/2911854/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "CBZ before ERY"
+          "Value": "CBZ before ERY",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 7.0
+          "Value": 7.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine"
+          "Value": "Carbamazepine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "300-400; mean dose: 357.1 +/- 53.5 mg"
+          "Value": "300-400; mean dose: 357.1 +/- 53.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "S0-T24-R14"
+          "Value": "S0-T24-R14",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "200mg tablets - Tegretol, lot no. 1T000470; Ciba-Geigy, Summit, NJ, USA"
+          "Value": "200mg tablets - Tegretol, lot no. 1T000470; Ciba-Geigy, Summit, NJ, USA",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Miles 1989 - CBZ before ERY - Carbamazepine - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 236.269,
             "LLOQ": 1E-06
           },
@@ -6830,20 +7116,18 @@
             5.137022
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Miles 1989 - CBZ before ERY - Carbamazepine - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           312.0,
@@ -6866,88 +7150,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 1419.0
+          "Value": 1419.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Miles 1989"
+          "Value": "Miles 1989",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/2911854/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/2911854/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "CBZE before ERY"
+          "Value": "CBZE before ERY",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 7.0
+          "Value": 7.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine-10-11-epoxide"
+          "Value": "Carbamazepine-10-11-epoxide",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "300-400; mean dose: 357.1 +/- 53.5 mg"
+          "Value": "300-400; mean dose: 357.1 +/- 53.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "S0-T24-R14"
+          "Value": "S0-T24-R14",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "200mg tablets - Tegretol, lot no. 1T000470; Ciba-Geigy, Summit, NJ, USA"
+          "Value": "200mg tablets - Tegretol, lot no. 1T000470; Ciba-Geigy, Summit, NJ, USA",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Miles 1989 - CBZE before ERY - Carbamazepine-10-11-epoxide - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 252.27,
             "LLOQ": 5E-07
           },
@@ -6964,20 +7264,18 @@
             1.040547
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Miles 1989 - CBZE before ERY - Carbamazepine-10-11-epoxide - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           312.0,
@@ -7000,75 +7298,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 465.0
+          "Value": 465.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Barzaghi 1987"
+          "Value": "Barzaghi 1987",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/3440106/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/3440106/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1a"
+          "Value": "Fig. 1a",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "With erythromycin"
+          "Value": "With erythromycin",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 7.0
+          "Value": 7.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine"
+          "Value": "Carbamazepine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 144.0
+          "Value": 144.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fed"
+          "Value": "fed",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7078,13 +7394,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Barzaghi 1987 - With erythromycin - Carbamazepine - PO - 400 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 236.269
               },
               "Values": [
@@ -7104,13 +7418,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Barzaghi 1987 - With erythromycin - Carbamazepine - PO - 400 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 236.269
           },
           "Values": [
@@ -7132,14 +7444,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Barzaghi 1987 - With erythromycin - Carbamazepine - PO - 400 mg - Serum - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           146.0,
@@ -7162,75 +7472,93 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 466.0
+          "Value": 466.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Barzaghi 1987"
+          "Value": "Barzaghi 1987",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/3440106/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/3440106/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1b"
+          "Value": "Fig. 1b",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "With erythromycin"
+          "Value": "With erythromycin",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 7.0
+          "Value": 7.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine-10-11-epoxide"
+          "Value": "Carbamazepine-10-11-epoxide",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 144.0
+          "Value": 144.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fed"
+          "Value": "fed",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
@@ -7240,13 +7568,11 @@
             {
               "Name": "Var",
               "QuantityInfo": {
-                "Name": "Var",
                 "Path": "Barzaghi 1987 - With erythromycin - Carbamazepine-10-11-epoxide - PO - 400 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|ArithmeticStdDev"
               },
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "Date": "0001-01-01T00:00:00",
                 "MolWeight": 252.27
               },
               "Values": [
@@ -7266,13 +7592,11 @@
             }
           ],
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Barzaghi 1987 - With erythromycin - Carbamazepine-10-11-epoxide - PO - 400 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 252.27
           },
           "Values": [
@@ -7294,14 +7618,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Barzaghi 1987 - With erythromycin - Carbamazepine-10-11-epoxide - PO - 400 mg - Serum - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           146.0,
@@ -7324,88 +7646,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 1420.0
+          "Value": 1420.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Miles 1989"
+          "Value": "Miles 1989",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/2911854/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/2911854/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "CBZ during ERY"
+          "Value": "CBZ during ERY",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 7.0
+          "Value": 7.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine"
+          "Value": "Carbamazepine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "300-400; mean dose: 357.1 +/- 53.5 mg"
+          "Value": "300-400; mean dose: 357.1 +/- 53.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "S0-T24-R17"
+          "Value": "S0-T24-R17",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "200mg tablets - Tegretol, lot no. 1T000470; Ciba-Geigy, Summit, NJ, USA"
+          "Value": "200mg tablets - Tegretol, lot no. 1T000470; Ciba-Geigy, Summit, NJ, USA",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Miles 1989 - CBZ during ERY - Carbamazepine - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 236.269,
             "LLOQ": 1E-06
           },
@@ -7422,20 +7760,18 @@
             5.582291
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Miles 1989 - CBZ during ERY - Carbamazepine - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           384.0,
@@ -7458,88 +7794,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 1421.0
+          "Value": 1421.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Miles 1989"
+          "Value": "Miles 1989",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/2911854/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/2911854/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 2"
+          "Value": "Fig. 2",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "CBZE during ERY"
+          "Value": "CBZE during ERY",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "aggregated"
+          "Value": "aggregated",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 7.0
+          "Value": 7.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine-10-11-epoxide"
+          "Value": "Carbamazepine-10-11-epoxide",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "300-400; mean dose: 357.1 +/- 53.5 mg"
+          "Value": "300-400; mean dose: 357.1 +/- 53.5 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": "S0-T24-R17"
+          "Value": "S0-T24-R17",
+          "Type": "String"
         },
         {
           "Name": "Formulation",
-          "Value": "200mg tablets - Tegretol, lot no. 1T000470; Ciba-Geigy, Summit, NJ, USA"
+          "Value": "200mg tablets - Tegretol, lot no. 1T000470; Ciba-Geigy, Summit, NJ, USA",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "fasted"
+          "Value": "fasted",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Miles 1989 - CBZE during ERY - Carbamazepine-10-11-epoxide - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine-10-11-epoxide|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 252.27,
             "LLOQ": 5E-07
           },
@@ -7562,14 +7914,12 @@
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Miles 1989 - CBZE during ERY - Carbamazepine-10-11-epoxide - PO - 300-400; mean dose: 357.1 +/- 53.5 mg - Serum - agg. (n=7)|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           384.0,
@@ -7592,88 +7942,104 @@
       "ExtendedProperties": [
         {
           "Name": "DB Version",
-          "Value": "OSP DATABASE"
+          "Value": "OSP DATABASE",
+          "Type": "String"
         },
         {
           "Name": "ID",
-          "Value": 1154.0
+          "Value": 1154.0,
+          "Type": "Double"
         },
         {
           "Name": "Study Id",
-          "Value": "Wong 1983"
+          "Value": "Wong 1983",
+          "Type": "String"
         },
         {
           "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/6831824/"
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/6831824/",
+          "Type": "String"
         },
         {
           "Name": "Source",
-          "Value": "Fig. 1"
+          "Value": "Fig. 1",
+          "Type": "String"
         },
         {
           "Name": "Grouping",
-          "Value": "Treatment A (with erythromycin)"
+          "Value": "Treatment A (with erythromycin)",
+          "Type": "String"
         },
         {
           "Name": "Data type",
-          "Value": "individual"
+          "Value": "individual",
+          "Type": "String"
         },
         {
           "Name": "N",
-          "Value": 8.0
+          "Value": 8.0,
+          "Type": "Double"
         },
         {
           "Name": "Molecule",
-          "Value": "Carbamazepine"
+          "Value": "Carbamazepine",
+          "Type": "String"
         },
         {
           "Name": "Species",
-          "Value": "Human"
+          "Value": "Human",
+          "Type": "String"
         },
         {
           "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
         },
         {
           "Name": "Compartment",
-          "Value": "Plasma"
+          "Value": "Plasma",
+          "Type": "String"
         },
         {
           "Name": "Route",
-          "Value": "PO"
+          "Value": "PO",
+          "Type": "String"
         },
         {
           "Name": "Dose",
-          "Value": "400 mg"
+          "Value": "400 mg",
+          "Type": "String"
         },
         {
           "Name": "Times of Administration [h]",
-          "Value": 120.0
+          "Value": 120.0,
+          "Type": "Double"
         },
         {
           "Name": "Formulation",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Food state",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         },
         {
           "Name": "Comment",
-          "Value": "."
+          "Value": ".",
+          "Type": "String"
         }
       ],
       "Columns": [
         {
           "Name": "Avg",
           "QuantityInfo": {
-            "Name": "Avg",
             "Path": "Wong 1983 - Treatment A (with erythromycin) - Carbamazepine - PO - 400 mg - Plasma - indiv.|ObservedData|Peripheral Venous Blood|Plasma|Carbamazepine|ArithmeticMean"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
             "MolWeight": 236.269
           },
           "Values": [
@@ -7692,20 +8058,18 @@
             2.52562
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
         "Name": "Time",
         "QuantityInfo": {
-          "Name": "Time",
           "Path": "Wong 1983 - Treatment A (with erythromycin) - Carbamazepine - PO - 400 mg - Plasma - indiv.|Time",
           "Type": "Time"
         },
         "DataInfo": {
           "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
+          "AuxiliaryType": "Undefined"
         },
         "Values": [
           121.0,
