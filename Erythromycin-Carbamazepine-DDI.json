@@ -1,5 +1,5 @@
 {
-  "Version": 79,
+  "Version": 80,
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -2976,7 +2976,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Barzaghi1987_ControlPhase|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_ControlPhase|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -3224,157 +3224,157 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_22|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_23|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_24|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_25|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_26|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_27|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_28|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_29|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_29|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_30|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_30|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -3699,87 +3699,87 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -3938,72 +3938,72 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - ControlPhase - Carbamazepine 357.1 mg bid|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4252,87 +4252,87 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -4566,147 +4566,147 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 300mg|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -5023,147 +5023,147 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 357.1mg|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -5488,147 +5488,147 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Carbamazepine 400mg|CBZ_tabletIR_fasted (Tegretol)|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Miles 1989 - TreatmentPhase - Erythromycin|Erythromycin_Weibull_enteric-coated-pellets|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -5867,7 +5867,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Barzaghi1987_ControlPhase|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Barzaghi1987_ControlPhase|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         }
@@ -6115,167 +6115,167 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Carbamazepine|CBZ_tabletIR_fasted (Tegretol)|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_10|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_10|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_11|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_11|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_12|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_12|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_13|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_13|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_14|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_14|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_15|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_15|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_16|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_16|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_17|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_17|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_18|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_18|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_19|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_19|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_20|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_20|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_21|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_21|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_22|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_22|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_23|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_23|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_24|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_24|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_25|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_25|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_26|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_26|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_27|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_27|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_28|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_28|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_29|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_29|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_30|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_30|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_31|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_31|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_32|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_32|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_7|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_7|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_8|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_8|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
         {
-          "Path": "Applications|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_9|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Wong1983_TreatmentPhase_Erythromycin|Erythromycin_Weibull_filmtablet_250mg|Application_9|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
